@@ -1,0 +1,190 @@
+/******* Min 992px *******/
+@media (min-width: 992px)
+{
+	*{
+		margin: 0px;
+		padding: 0px;
+		box-sizing: border-box;
+		font-family: cursive;
+	}
+
+		#content{
+		width: 100%;
+		position: absolute;
+		}
+
+	#head{
+		font-size: 175%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom:30px;
+		}
+
+	.box{
+		width: 30.5%;
+		border: 1px solid black;
+		background-color: #837C7C;
+		float: left;
+		margin: 1.41%;
+		position: relative;
+
+	}
+
+	.sbox{
+		border: 1px solid black;
+		float: top right;
+		width: 25%;
+		text-align: center;
+		float: right;
+		clear:left;
+		position: relative;
+		font-size: 125%
+	}
+
+	#sbox1{
+		background-color: #BE8989;
+	}
+	#sbox2{
+		background-color: #F61212;
+		color: white;
+	}
+	#sbox3{
+		background-color: #D6D83C;
+	}
+
+	.para{
+	border: 1px solid;
+	padding: 25px 10px 5px;
+	}
+
+}
+
+
+
+/******* Min 768px and max 991px*******/
+@media (min-width:768px) and (max-width: 991px)
+{
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: cursive;
+	}
+
+	#content{
+	width: 100%;
+	position: absolute;
+	}
+
+	#head{
+		font-size: 175%;
+		text-align: center;
+		padding-top: 20px;
+		padding-bottom:30px;
+		}
+
+	.box{
+		width: 46%;
+		border: 1px solid black;
+		background-color: #837C7C;
+		float: left;
+		margin: 2%;
+		position: relative;
+
+	}
+	
+	#box3{
+		width: 96%;
+	}
+
+	.sbox{
+		border: 1px solid black;
+		float: top right;
+		width: 25%;
+		text-align: center;
+		float: right;
+		clear:left;
+		position: relative;
+		font-size: 125%
+	}
+
+	#sbox1{
+		background-color: #BE8989;
+	}
+
+	#sbox2{
+		background-color: #F61212;
+		color: white;
+		}
+
+	#sbox3{
+		background-color: #D6D83C;
+	}
+
+	.para{
+	border: 1px solid;
+	padding: 25px 10px 5px;
+	}
+}
+
+
+/******* Max 767px *******/
+@media (max-width: 767px)
+{
+	*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: cursive;
+	}
+
+	#content{
+	width: 100%;
+	position: absolute;
+	}
+
+	#head{
+	font-size: 175%;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:25px;
+	}
+
+	.box{
+	width: 90%;
+	border: 1px solid black;
+	background-color: #837C7C;
+	float: left;
+	margin: 10px 5%;
+	position: relative;
+
+	}
+
+	.sbox{
+	border: 1px solid black;
+	float: top right;
+	width: 25%;
+	text-align: center;
+	float: right;
+	clear:left;
+	position: relative;
+	font-size: 125%
+	}
+
+	#sbox1{
+	background-color: #BE8989;
+	}
+	#sbox2{
+		background-color: #F61212;
+		color: white;
+	}
+	#sbox3{
+	background-color: #D6D83C;
+	}
+
+	.para{
+	border: 1px solid;
+	padding: 25px 10px 5px;
+	}
+}
+
