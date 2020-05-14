@@ -1,0 +1,133 @@
+*{
+	/*margin: 0px;
+	padding: 0px;*/
+	box-sizing: border-box;
+
+}
+
+/************************ WHOLE BODY **************************/
+ 
+ body{
+	background-color: #B8959E;
+
+
+	}
+
+/************************ NAVBAR WHOLE **************************/
+ 	#header-nav{
+	background-color: #3a3b3f;
+	border: none;
+	border-radius: 0px;
+	height:77.7px;
+	font-family: 'Special Elite', cursive;
+	font-family: 'Playfair Display', serif;
+	}
+
+/************************ BRAND NAME **************************/
+ .navbar-brand h1{
+	color:#596185;
+	text-transform: uppercase;
+	font-size: 2em;
+	margin-top: -5px;
+	letter-spacing: -2px;
+
+	}
+
+	.navbar-brand h1:hover{
+	color:#B8959E;
+	}
+	.navbar-brand a:hover{
+	text-decoration: none;
+	}
+
+/************************ BRAND MONOGRAPH **************************/
+
+ .navbar-brand{
+ 		position: absolute;
+ }
+ #monogram{
+	margin-top: 40px;
+	color:#596185;
+	position: absolute;
+	right: 30px;
+	
+	}
+
+	#monogram:hover{
+	color: #B8959E;
+	}
+
+/************************ LOGO HIDDEN **************************/
+	#img-logo #hidden{
+	visibility: hidden;
+	background-color: transparent;
+	color:#596185;
+	text-decoration: none;
+	position: absolute;
+	font-weight: bold;
+	top: 4px;
+	right: 90px;
+	}
+
+ #img-logo:hover #hidden{
+	visibility: visible;
+	}
+
+/************************ FLOATED LEFT LINKS COMBINED **************************/
+	#collapsable-nav{
+		float: left;
+		align-items: center;
+	}
+
+/************************ LINKS BLOCK COMBINED **************************/
+	#nav-list{
+		position: relative;
+		left:400px;	
+		top: 10px;
+	}
+
+/************************ EACH LINK **************************/
+	#nav-list a{
+	color:#596185;
+	font-size: 2.2em;
+	text-decoration: none;
+	display: block;
+	border:1px ;
+	padding: 5px;
+	margin: 3px 8px;
+	text-align: center;
+	border: 2px solid ;
+	}
+
+	#nav-list a:hover{
+		color:#B8959E;
+		text-decoration: none;
+		background-color: #404146;
+		border: 2px solid #B8959E;
+	}
+
+
+
+/************************ EACH SCREEN **************************/
+/************************ EACH SCREEN **************************/
+@media (min-width: 992px) and (max-width: 1199px)
+
+
+	{
+	body{
+		background-color: red;
+	}
+
+	#nav-list{
+		position: relative;
+		left:370px;	
+		top: 10px;
+		
+	}
+
+	#nav-list a{
+		font-size: 2.2em;
+		padding: 5px;
+		margin: 3px 5px;
+	}
+}
